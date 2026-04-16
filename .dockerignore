@@ -1,0 +1,14 @@
+.venv
+__pycache__
+*.pyc
+.ruff_cache
+*.md
+.gitignore
+.DS_Store
+benchmark*.md
+benchmark*.json
+benchmark_dashboard.html
+new_test.json
+benchmark_results.md
+data
+k8s

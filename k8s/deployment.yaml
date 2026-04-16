@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phishing-detector
+  labels:
+    app: phishing-detector
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: phishing-detector
+  template:
+    metadata:
+      labels:
+        app: phishing-detector
+    spec:
+      containers:
+      - name: api
+        image: phishing-detector:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8000
+          name: http
+        envFrom:
+        - configMapRef:
+            name: phishing-detector-config
+        env:
+        - name: DATABASE_URL
+          value: "postgresql://admin:admin123@postgres:5432/phishing_db"
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        volumeMounts:
+        - name: model-storage
+          mountPath: /app/models
+          readOnly: true
+      volumes:
+      - name: model-storage
+        emptyDir: {}

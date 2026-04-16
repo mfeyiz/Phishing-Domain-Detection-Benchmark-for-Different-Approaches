@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  phishing-detector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: phishing-detector:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_DIR=/app/models
+      - RF_MODEL_PATH=/app/rf_model.joblib
+      - XGB_MODEL_PATH=/app/xgb_model.joblib
+      - DEFAULT_THRESHOLD=0.5
+      - LOG_LEVEL=INFO
+      - ENABLE_ALGORITHMIC=true
+      - ENABLE_RF=true
+      - ENABLE_XGB=true
+      - ENABLE_URLBERT=true
+      - ENABLE_SBERT_CANINE=false
+      - ENABLE_CROSSENCODER_CANINE=false
+    volumes:
+      - ./rf_model.joblib:/app/rf_model.joblib:ro
+      - ./xgb_model.joblib:/app/xgb_model.joblib:ro
+      - model-data:/app/models
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  model-data:

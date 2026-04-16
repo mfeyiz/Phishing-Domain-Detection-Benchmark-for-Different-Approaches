@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Cyber Sentinel | PhishScan Alpha</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "surface-container-highest": "#31353c",
+                        "tertiary-container": "#a9e300",
+                        "on-surface": "#dfe2eb",
+                        "on-primary-fixed-variant": "#004f58",
+                        "surface-container-lowest": "#0a0e14",
+                        "primary-container": "#00e5ff",
+                        "on-secondary": "#370096",
+                        "surface-dim": "#10141a",
+                        "on-surface-variant": "#bac9cc",
+                        "on-primary-fixed": "#001f24",
+                        "on-error-container": "#ffdad6",
+                        "surface-container": "#1c2026",
+                        "secondary-fixed": "#e8deff",
+                        "error-container": "#93000a",
+                        "secondary": "#cdbdff",
+                        "tertiary": "#c8ff50",
+                        "secondary-fixed-dim": "#cdbdff",
+                        "on-tertiary-container": "#476200",
+                        "surface-container-low": "#181c22",
+                        "on-secondary-fixed": "#20005f",
+                        "primary-fixed-dim": "#00daf3",
+                        "error": "#ffb4ab",
+                        "outline": "#849396",
+                        "primary": "#c3f5ff",
+                        "surface": "#10141a",
+                        "on-primary": "#00363d",
+                        "surface-container-high": "#262a31",
+                        "primary-fixed": "#9cf0ff",
+                        "on-secondary-container": "#c0acff",
+                        "outline-variant": "#3b494c",
+                        "inverse-surface": "#dfe2eb",
+                        "on-background": "#dfe2eb",
+                        "on-tertiary-fixed-variant": "#384e00",
+                        "surface-tint": "#00daf3",
+                        "inverse-on-surface": "#2d3137",
+                        "on-tertiary-fixed": "#141f00",
+                        "background": "#10141a",
+                        "on-error": "#690005",
+                        "on-tertiary": "#253500",
+                        "on-secondary-fixed-variant": "#4f00d0",
+                        "surface-variant": "#31353c",
+                        "inverse-primary": "#006875",
+                        "tertiary-fixed-dim": "#a0d800",
+                        "secondary-container": "#5203d5",
+                        "surface-bright": "#353940",
+                        "on-primary-container": "#00626e",
+                        "tertiary-fixed": "#b9f61d"
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.125rem",
+                        lg: "0.25rem",
+                        xl: "0.5rem",
+                        full: "0.75rem"
+                    },
+                    fontFamily: {
+                        headline: ["Space Grotesk"],
+                        body: ["Inter"],
+                        label: ["Inter"],
+                        mono: ["JetBrains Mono"]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Inter', sans-serif; }
+        .font-headline { font-family: 'Space Grotesk', sans-serif; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .glass-panel {
+            background: rgba(49, 53, 60, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(132, 147, 150, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+    <aside class="bg-[#181c22] h-screen w-72 fixed left-0 top-0 border-r border-[#31353c]/20 flex flex-col py-8 space-y-4 z-50">
+        <div class="px-6 mb-8">
+            <div class="font-['Space_Grotesk'] font-bold text-xl tracking-tighter text-[#00e5ff]">CYBER SENTINEL</div>
+            <div class="text-[10px] font-mono text-on-surface-variant/60 uppercase tracking-[0.2em] mt-1">Precision Lab v2.4</div>
+        </div>
+        <nav class="flex-1 px-4 space-y-2" id="nav-tabs">
+            <a class="nav-tab active bg-[#31353c] text-[#00e5ff] border-l-4 border-[#00e5ff] font-bold flex items-center px-4 py-3 gap-3 transition-all duration-400 ease-in-out scale-[0.98]" href="#" data-tab="command-center">
+                <span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+                <span class="font-headline tracking-tight">Command Center</span>
+            </a>
+            <a class="nav-tab text-[#dfe2eb]/50 font-medium hover:text-[#dfe2eb] hover:bg-[#31353c]/50 flex items-center px-4 py-3 gap-3 transition-all duration-400 ease-in-out" href="#" data-tab="benchmarking">
+                <span class="material-symbols-outlined" data-icon="precision_manufacturing">precision_manufacturing</span>
+                <span class="font-headline tracking-tight">Benchmarking</span>
+            </a>
+            <a class="nav-tab text-[#dfe2eb]/50 font-medium hover:text-[#dfe2eb] hover:bg-[#31353c]/50 flex items-center px-4 py-3 gap-3 transition-all duration-400 ease-in-out" href="#" data-tab="domain-analysis">
+                <span class="material-symbols-outlined" data-icon="lan">lan</span>
+                <span class="font-headline tracking-tight">Domain Analysis</span>
+            </a>
+            <a class="nav-tab text-[#dfe2eb]/50 font-medium hover:text-[#dfe2eb] hover:bg-[#31353c]/50 flex items-center px-4 py-3 gap-3 transition-all duration-400 ease-in-out" href="#" data-tab="threat-reports">
+                <span class="material-symbols-outlined" data-icon="description">description</span>
+                <span class="font-headline tracking-tight">Threat Reports</span>
+            </a>
+            <a class="nav-tab text-[#dfe2eb]/50 font-medium hover:text-[#dfe2eb] hover:bg-[#31353c]/50 flex items-center px-4 py-3 gap-3 transition-all duration-400 ease-in-out" href="#" data-tab="settings">
+                <span class="material-symbols-outlined" data-icon="settings">settings</span>
+                <span class="font-headline tracking-tight">System Settings</span>
+            </a>
+        </nav>
+        <div class="px-6 py-4">
+            <button onclick="openScanModal()" class="w-full bg-primary-container text-on-primary-container font-headline font-bold py-3 rounded-lg shadow-[0_0_15px_rgba(0,229,255,0.3)] hover:brightness-110 transition-all">
+                Initiate Scan
+            </button>
+        </div>
+        <footer class="px-4 space-y-1">
+            <a class="text-[#dfe2eb]/50 font-medium hover:text-[#dfe2eb] flex items-center px-4 py-2 gap-3 text-sm" href="#">
+                <span class="material-symbols-outlined text-lg" data-icon="menu_book">menu_book</span>
+                <span>Documentation</span>
+            </a>
+            <a class="text-[#dfe2eb]/50 font-medium hover:text-[#dfe2eb] flex items-center px-4 py-2 gap-3 text-sm" href="#">
+                <span class="material-symbols-outlined text-lg" data-icon="contact_support">contact_support</span>
+                <span>Support</span>
+            </a>
+            <div class="mt-4 pt-4 border-t border-outline-variant/20 flex items-center gap-3 px-4">
+                <div class="w-8 h-8 rounded bg-surface-container-highest overflow-hidden">
+                    <img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCOY7TiX3-SfQsMmQl0LyxlbG0_KJ22sVExSQeGxs7nt0rPyuupOuyZozzijXczB9K-qzgLx7PSMyux1fPNZaFfxGjjw-vIL_YuqI6E4cbmGFWhsQrnNpamYF8UtEi8ZqR0DinTJ6B_F4ySftT2CaHSRr6pbVAOxHaaCiS6V4UgseC9LT5WXXO4viTGhtL63ZPTOVEZRF0a0EyCYBbTwNCE954d8aY1HiV4wZPrn6PwvLBg25VW_D0LpbhWKjxUOVxqWULdTZNyEXda" alt="Admin"/>
+                </div>
+                <div class="text-[10px]">
+                    <p class="text-on-surface font-bold">Forensic Lab Admin</p>
+                    <p class="text-primary/60">ID: 992-DELTA</p>
+                </div>
+            </div>
+        </footer>
+    </aside>
+
+    <header class="bg-[#10141a]/90 backdrop-blur-xl h-16 w-full sticky top-0 border-b border-[#31353c]/10 flex items-center justify-between px-10 ml-72 z-40">
+        <div class="flex items-center gap-8">
+            <div class="font-['Space_Grotesk'] font-black text-lg text-[#dfe2eb] uppercase tracking-widest">PhishScan Alpha</div>
+            <nav class="hidden lg:flex items-center gap-6 text-sm">
+                <a class="text-[#00e5ff] font-bold border-b-2 border-[#00e5ff] pb-1" href="#">Global View</a>
+                <a class="text-[#dfe2eb]/70 hover:text-[#00e5ff] transition-colors" href="#">Model Metrics</a>
+                <a class="text-[#dfe2eb]/70 hover:text-[#00e5ff] transition-colors" href="#">Active Sprints</a>
+            </nav>
+        </div>
+        <div class="flex items-center gap-4">
+            <div class="flex items-center bg-surface-container-highest/40 px-3 py-1.5 rounded-lg border border-outline-variant/10">
+                <span class="material-symbols-outlined text-on-surface-variant text-lg mr-2" data-icon="search">search</span>
+                <input class="bg-transparent border-none focus:ring-0 text-sm w-48 font-label" placeholder="Search vectors..." type="text"/>
+            </div>
+            <div class="flex items-center gap-2">
+                <button class="p-2 text-on-surface-variant hover:text-[#00e5ff] transition-transform hover:scale-110">
+                    <span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+                </button>
+                <button class="p-2 text-on-surface-variant hover:text-[#00e5ff] transition-transform hover:scale-110">
+                    <span class="material-symbols-outlined" data-icon="wifi_tethering">wifi_tethering</span>
+                </button>
+                <button class="p-2 text-on-surface-variant hover:text-[#00e5ff] transition-transform hover:scale-110">
+                    <span class="material-symbols-outlined" data-icon="account_tree">account_tree</span>
+                </button>
+            </div>
+            <div class="h-6 w-px bg-outline-variant/30 mx-2"></div>
+            <button class="flex items-center gap-2 bg-primary-container/10 border border-primary-container/20 text-primary-container px-4 py-1.5 rounded text-sm font-bold hover:bg-primary-container/20 transition-all">
+                <span class="material-symbols-outlined text-sm" data-icon="sensors">sensors</span>
+                Live Stream
+            </button>
+        </div>
+    </header>
+
+    <main class="ml-72 p-10 space-y-10">
+        <section class="flex flex-col md:flex-row justify-between items-end gap-6">
+            <div class="space-y-1">
+                <h1 class="text-4xl font-headline font-bold tracking-tighter text-on-surface">Benchmark Intelligence</h1>
+                <p class="text-on-surface-variant font-body">Cross-model performance telemetry across 1.2M validation vectors.</p>
+            </div>
+            <div class="flex gap-4">
+                <div class="px-6 py-4 bg-surface-container-low rounded-lg border-l-2 border-tertiary">
+                    <div class="text-[10px] text-tertiary font-mono uppercase tracking-widest">Avg Detection Rate</div>
+                    <div class="text-2xl font-headline font-bold" id="avg-detection-rate">98.42%</div>
+                </div>
+                <div class="px-6 py-4 bg-surface-container-low rounded-lg border-l-2 border-primary-container">
+                    <div class="text-[10px] text-primary-container font-mono uppercase tracking-widest">Mean Latency</div>
+                    <div class="text-2xl font-headline font-bold" id="mean-latency">14.2ms</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="lg:col-span-2 glass-panel p-8 rounded-xl space-y-6">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-xl font-headline font-semibold">Approach Comparison Matrix</h2>
+                    <div class="flex gap-2 text-[10px] font-mono">
+                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-primary-container"></span> F1-SCORE</span>
+                        <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-tertiary"></span> PRECISION</span>
+                    </div>
+                </div>
+                <div class="space-y-4" id="model-comparison">
+                    <div class="group">
+                        <div class="flex justify-between mb-1">
+                            <span class="font-mono text-xs text-on-surface-variant">Heuristic (Static)</span>
+                            <span class="font-mono text-xs text-on-surface-variant">72.4%</span>
+                        </div>
+                        <div class="h-1.5 w-full bg-surface-container-highest overflow-hidden rounded-full">
+                            <div class="h-full bg-outline w-[72%]" style="width: 72%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-1">
+                            <span class="font-mono text-xs text-on-surface-variant">Random Forest</span>
+                            <span class="font-mono text-xs text-on-surface-variant">88.1%</span>
+                        </div>
+                        <div class="h-1.5 w-full bg-surface-container-highest overflow-hidden rounded-full">
+                            <div class="h-full bg-primary-fixed-dim w-[88%]" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-1">
+                            <span class="font-mono text-xs text-on-surface-variant">XGBoost (Optimized)</span>
+                            <span class="font-mono text-xs text-on-surface-variant" id="xgb-score">94.8%</span>
+                        </div>
+                        <div class="h-1.5 w-full bg-surface-container-highest overflow-hidden rounded-full">
+                            <div class="h-full bg-primary-container w-[94.8%]" style="width: 94.8%; box-shadow: 0 0 8px rgba(0,229,255,0.4)"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-1">
+                            <span class="font-mono text-xs text-on-surface-variant">URL-BERT v2</span>
+                            <span class="font-mono text-xs text-on-surface-variant" id="urlbert-score">97.2%</span>
+                        </div>
+                        <div class="h-1.5 w-full bg-surface-container-highest overflow-hidden rounded-full">
+                            <div class="h-full bg-tertiary w-[97.2%]" style="width: 97.2%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-1">
+                            <span class="font-mono text-xs text-on-surface-variant">SBERT Embeddings</span>
+                            <span class="font-mono text-xs text-on-surface-variant" id="sbert-score">96.5%</span>
+                        </div>
+                        <div class="h-1.5 w-full bg-surface-container-highest overflow-hidden rounded-full">
+                            <div class="h-full bg-tertiary-container w-[96.5%]" style="width: 96.5%"></div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="flex justify-between mb-1">
+                            <span class="font-bold text-xs text-primary">Cross-Encoder (Leader)</span>
+                            <span class="font-bold text-xs text-primary" id="crossencoder-score">99.1%</span>
+                        </div>
+                        <div class="h-2 w-full bg-surface-container-highest overflow-hidden rounded-full">
+                            <div class="h-full bg-gradient-to-r from-primary to-primary-container w-[99.1%]" style="width: 99.1%; box-shadow: 0 0 12px rgba(0,229,255,0.6)"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-surface-container-low p-8 rounded-xl border border-outline-variant/10 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <span class="material-symbols-outlined text-tertiary" data-icon="health_and_safety">health_and_safety</span>
+                        <h2 class="font-headline font-semibold">System Health</h2>
+                    </div>
+                    <div class="space-y-8">
+                        <div class="flex items-center justify-between">
+                            <div class="space-y-1">
+                                <p class="text-xs text-on-surface-variant font-mono">NODE-A1 (Compute)</p>
+                                <p class="text-sm font-bold" id="node-status">Stable</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-full border-4 border-tertiary/20 border-t-tertiary flex items-center justify-center">
+                                <span class="text-[10px] font-mono" id="node-load">82%</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="space-y-1">
+                                <p class="text-xs text-on-surface-variant font-mono">LATENCY-MU</p>
+                                <p class="text-sm font-bold" id="latency-status">Nominal</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-full border-4 border-primary-container/20 border-t-primary-container flex items-center justify-center">
+                                <span class="text-[10px] font-mono" id="latency-val">14ms</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="space-y-1">
+                                <p class="text-xs text-on-surface-variant font-mono">DB-IOPS</p>
+                                <p class="text-sm font-bold" id="db-status">High Load</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-full border-4 border-secondary/20 border-t-secondary flex items-center justify-center">
+                                <span class="text-[10px] font-mono" id="db-load">92%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 pt-6 border-t border-outline-variant/10 text-center">
+                    <p class="text-[10px] font-mono text-on-surface-variant uppercase" id="uptime">Up-time: 1,422 Hours</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 xl:grid-cols-4 gap-6">
+            <div class="xl:col-span-3 space-y-4">
+                <div class="flex items-center justify-between px-2">
+                    <h3 class="font-headline font-bold text-lg">Active Telemetry Feed</h3>
+                    <div class="flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-error animate-pulse"></span>
+                        <span class="text-[10px] font-mono text-on-surface-variant uppercase">Real-time Stream</span>
+                    </div>
+                </div>
+                <div class="bg-surface-container rounded-xl overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-surface-container-highest/30 font-mono text-[10px] text-on-surface-variant uppercase">
+                                    <th class="px-6 py-4">Source Vector</th>
+                                    <th class="px-6 py-4">Status</th>
+                                    <th class="px-6 py-4">Primary Model</th>
+                                    <th class="px-6 py-4">Confidence</th>
+                                    <th class="px-6 py-4">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-outline-variant/10" id="history-table">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="xl:col-span-1 glass-panel rounded-xl overflow-hidden flex flex-col">
+                <div class="p-6 border-b border-outline-variant/10">
+                    <h3 class="font-headline font-bold">Threat Blueprint</h3>
+                    <p class="text-[10px] text-on-surface-variant font-mono mt-1">UUID: VX-982-A</p>
+                </div>
+                <div class="relative h-48">
+                    <img class="w-full h-full object-cover grayscale opacity-40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlZrKVdV9hE6kkJXYIhEzRsga7jea41ZJDktVUA4rEF0SPgaInmgdpX8ptr10AGUrwKHnEHhMA1cHPQVzI90AO427kQmntCGLHhOj0ezDtAgXZo6To4kWEV4XeWBJk3_tfqXjraWg9SD4GTr40gKX5xlb2RA47DinXUP7Sx8vuiunA-YZdvjlOJimIbficat6AzSXtthKIn8r-4tH7cWvBfOkTJS8dihyJWZT2HXGq3-qiFM6IQH6ueLrupEQDCdR4bm3-9BF2WEOL" alt="Network visualization"/>
+                    <div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+                    <div class="absolute bottom-4 left-6 text-primary">
+                        <span class="material-symbols-outlined text-4xl" data-icon="fingerprint" style="font-variation-settings: 'FILL' 1;">fingerprint</span>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4">
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="text-on-surface-variant">Origin Geo</span>
+                        <span class="font-mono" id="detail-geo">North-Europe/LU</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="text-on-surface-variant">ISP Profile</span>
+                        <span class="font-mono" id="detail-isp">Cloud-Edge-X</span>
+                    </div>
+                    <div class="flex justify-between items-center text-xs">
+                        <span class="text-on-surface-variant">Entropy Score</span>
+                        <span class="font-mono text-tertiary" id="detail-entropy">4.82 bits</span>
+                    </div>
+                    <button class="w-full mt-4 py-2 border border-outline-variant text-xs font-bold hover:bg-surface-container-highest transition-colors">
+                        FULL FORENSIC LOG
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="scan-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center">
+        <div class="glass-panel rounded-xl w-full max-w-2xl p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-headline font-bold text-[#00e5ff]">Initiate Scan</h2>
+                <button onclick="closeScanModal()" class="text-on-surface-variant hover:text-primary">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+            <form id="scan-form" class="space-y-6">
+                <div>
+                    <label class="block text-sm font-mono text-on-surface-variant mb-2">Original URL</label>
+                    <input type="text" id="scan-original" class="w-full bg-surface-container-highest border border-outline-variant rounded-lg px-4 py-3 font-mono text-sm focus:border-primary focus:ring-1 focus:ring-primary" placeholder="https://legitimate-site.com"/>
+                </div>
+                <div>
+                    <label class="block text-sm font-mono text-on-surface-variant mb-2">Suspicious URL</label>
+                    <input type="text" id="scan-suspicious" class="w-full bg-surface-container-highest border border-outline-variant rounded-lg px-4 py-3 font-mono text-sm focus:border-primary focus:ring-1 focus:ring-primary" placeholder="https://suspicious-site.com"/>
+                </div>
+                <div>
+                    <label class="block text-sm font-mono text-on-surface-variant mb-2">Detection Method</label>
+                    <select id="scan-method" class="w-full bg-surface-container-highest border border-outline-variant rounded-lg px-4 py-3 font-mono text-sm focus:border-primary focus:ring-1 focus:ring-primary">
+                        <option value="algorithmic">Heuristic (Static)</option>
+                        <option value="rf">Random Forest</option>
+                        <option value="xgb">XGBoost</option>
+                        <option value="urlbert">URL-BERT</option>
+                        <option value="sbert">SBERT Embeddings</option>
+                        <option value="crossencoder" selected>Cross-Encoder (Best)</option>
+                    </select>
+                </div>
+                <div class="flex justify-end gap-4">
+                    <button type="button" onclick="closeScanModal()" class="px-6 py-3 border border-outline-variant text-on-surface-variant rounded-lg hover:bg-surface-container-highest transition-all">Cancel</button>
+                    <button type="submit" class="px-6 py-3 bg-primary-container text-on-primary-container font-bold rounded-lg hover:brightness-110 transition-all">Execute Scan</button>
+                </div>
+            </form>
+            <div id="scan-results" class="hidden mt-6 p-4 bg-surface-container-low rounded-lg">
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed bottom-8 right-8 flex flex-col gap-4">
+        <button onclick="openScanModal()" class="w-14 h-14 bg-primary-container text-on-primary-container rounded-full shadow-[0_10px_20px_rgba(0,229,255,0.2)] flex items-center justify-center hover:scale-110 transition-transform active:scale-95 group relative">
+            <span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">add</span>
+            <span class="absolute right-16 bg-surface-container-highest text-on-surface text-[10px] font-bold px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">NEW TASK</span>
+        </button>
+    </div>
+
+    <script>
+        const API_BASE = '';
+
+        async function loadHealth() {
+            try {
+                const res = await fetch(`${API_BASE}/health`);
+                const data = await res.json();
+                
+                document.getElementById('node-status').textContent = data.status === 'healthy' ? 'Stable' : 'Critical';
+                document.getElementById('uptime').textContent = `Up-time: ${Math.floor(data.uptime_seconds / 3600).toLocaleString()} Hours`;
+                
+                const modelCount = Object.keys(data.models_loaded || {}).length;
+                document.getElementById('node-load').textContent = `${Math.min(100, 50 + modelCount * 10)}%`;
+            } catch (e) {
+                console.error('Health check failed:', e);
+            }
+        }
+
+        async function loadHistory() {
+            try {
+                const res = await fetch(`${API_BASE}/history?limit=10`);
+                const data = await res.json();
+                
+                const tbody = document.getElementById('history-table');
+                tbody.innerHTML = data.history ? data.history.map(item => {
+                    const isPhishing = item.is_phishing;
+                    const statusClass = isPhishing ? 'text-error bg-error/10' : 'text-tertiary bg-tertiary/10';
+                    const statusLabel = isPhishing ? 'MALICIOUS' : 'SAFE';
+                    return `
+                        <tr class="hover:bg-surface-container-highest/40 transition-colors group">
+                            <td class="px-6 py-4 font-mono text-xs">${item.suspicious_url || item.suspicious}</td>
+                            <td class="px-6 py-4"><span class="text-xs font-bold px-2 py-0.5 rounded ${statusClass}">${statusLabel}</span></td>
+                            <td class="px-6 py-4 text-sm">${item.method}</td>
+                            <td class="px-6 py-4 font-mono text-xs ${isPhishing ? 'text-primary' : 'text-on-surface-variant'}">${item.confidence?.toFixed(4) || '0.0000'}</td>
+                            <td class="px-6 py-4"><span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors cursor-pointer">more_vert</span></td>
+                        </tr>
+                    `;
+                }).join('') : '<tr><td colspan="5" class="px-6 py-4 text-on-surface-variant">No scan history available</td></tr>';
+            } catch (e) {
+                console.error('History load failed:', e);
+            }
+        }
+
+        async function loadStats() {
+            try {
+                const res = await fetch(`${API_BASE}/stats`);
+                const data = await res.json();
+                
+                if (data.total_scans !== undefined) {
+                    const detectionRate = data.total_scans > 0 ? ((data.phishing_count / data.total_scans) * 100) : 0;
+                    document.getElementById('avg-detection-rate').textContent = `${detectionRate.toFixed(2)}%`;
+                }
+            } catch (e) {
+                console.error('Stats load failed:', e);
+            }
+        }
+
+        async function loadModels() {
+            try {
+                const res = await fetch(`${API_BASE}/models`);
+                const data = await res.json();
+                
+                const modelScores = {
+                    algorithmic: 72.4,
+                    rf: 88.1,
+                    xgb: 94.8,
+                    urlbert: 97.2,
+                    sbert: 96.5,
+                    crossencoder: 99.1
+                };
+                
+                data.forEach(model => {
+                    if (model.available) {
+                        const score = modelScores[model.name] || 0;
+                        const el = document.getElementById(`${model.name}-score`);
+                        if (el) el.textContent = `${score.toFixed(1)}%`;
+                        
+                        const bar = document.querySelector(`#model-comparison .group:nth-child(${Object.keys(modelScores).indexOf(model.name) + 1}) .bg-gradient-to-r`);
+                        if (bar) bar.style.width = `${score}%`;
+                    }
+                });
+            } catch (e) {
+                console.error('Models load failed:', e);
+            }
+        }
+
+        function openScanModal() {
+            document.getElementById('scan-modal').classList.remove('hidden');
+            document.getElementById('scan-results').classList.add('hidden');
+        }
+
+        function closeScanModal() {
+            document.getElementById('scan-modal').classList.add('hidden');
+        }
+
+        document.getElementById('scan-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const original = document.getElementById('scan-original').value;
+            const suspicious = document.getElementById('scan-suspicious').value;
+            const method = document.getElementById('scan-method').value;
+            
+            if (!original || !suspicious) {
+                alert('Please enter both URLs');
+                return;
+            }
+            
+            try {
+                const res = await fetch(`${API_BASE}/predict`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({original, suspicious, method})
+                });
+                
+                const data = await res.json();
+                
+                if (!res.ok) {
+                    throw new Error(data.error || 'API Error');
+                }
+                
+                const resultsDiv = document.getElementById('scan-results');
+                resultsDiv.classList.remove('hidden');
+                
+                const isPhishing = data.is_phishing;
+                const bgClass = isPhishing ? 'bg-error/20 border-error' : 'bg-tertiary/20 border-tertiary';
+                const statusIcon = isPhishing ? 'dangerous' : 'check_circle';
+                
+                resultsDiv.innerHTML = `
+                    <div class="flex items-center gap-4 ${bgClass} border rounded-lg p-4">
+                        <span class="material-symbols-outlined text-3xl ${isPhishing ? 'text-error' : 'text-tertiary'}">${statusIcon}</span>
+                        <div>
+                            <p class="font-bold text-lg">${data.label}</p>
+                            <p class="text-sm text-on-surface-variant">Confidence: ${data.confidence?.toFixed(4)}</p>
+                        </div>
+                    </div>
+                `;
+                
+                loadHistory();
+            } catch (err) {
+                document.getElementById('scan-results').classList.remove('hidden');
+                document.getElementById('scan-results').innerHTML = `<p class="text-error">Error: ${err.message}</p>`;
+            }
+        });
+
+        document.querySelectorAll('.nav-tab').forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                e.preventDefault();
+                document.querySelectorAll('.nav-tab').forEach(t => {
+                    t.classList.remove('bg-[#31353c]', 'text-[#00e5ff]', 'border-l-4', 'border-[#00e5ff]', 'font-bold');
+                    t.classList.add('text-[#dfe2eb]/50', 'font-medium');
+                });
+                tab.classList.add('bg-[#31353c]', 'text-[#00e5ff]', 'border-l-4', 'border-[#00e5ff]', 'font-bold');
+                tab.classList.remove('text-[#dfe2eb]/50', 'font-medium');
+            });
+        });
+
+        loadHealth();
+        loadHistory();
+        loadStats();
+        loadModels();
+
+        setInterval(loadHealth, 30000);
+        setInterval(loadHistory, 10000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,3002 @@
+[
+  {
+    "original": "bestbuy.biz",
+    "suspicious": "mastercard970.biz.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.biz",
+    "suspicious": "update-telegram.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "telegram.net",
+    "suspicious": "yahoo667.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "etsy.org",
+    "suspicious": "3t$y.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "capitalone.net",
+    "suspicious": "spotify351.co.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "netflix.org",
+    "suspicious": "nettflix.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "github.info",
+    "suspicious": "verify-github.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "netflix.org",
+    "suspicious": "bestbuy201.com.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.com",
+    "suspicious": "target39.com.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "steam.com",
+    "suspicious": "ebay332.net.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.info",
+    "suspicious": "paypal785.info.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "yahoo.biz",
+    "suspicious": "signin-yahoo.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "google.io",
+    "suspicious": "github594.info.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "dropbox.com",
+    "suspicious": "dropbox-cloud.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "etsy.com",
+    "suspicious": "support.etsy",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "microsoft.net",
+    "suspicious": "microsoft-reset.biz",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "facebook.org",
+    "suspicious": "mastercard782.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.org",
+    "suspicious": "slack473.net.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.org",
+    "suspicious": "netflix668.net.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "capitalone.org",
+    "suspicious": "wellsfargo377.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bankofamerica.com",
+    "suspicious": "account.bankofamerica",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "bestbuy.net",
+    "suspicious": "bestbuy-reset.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "citi.biz",
+    "suspicious": "usbank177.net.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "netflix.com",
+    "suspicious": "payment-netflix.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "steam.com",
+    "suspicious": "$t34m.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "netflix.io",
+    "suspicious": "netflix.net.com",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "wellsfargo.io",
+    "suspicious": "github758.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.net",
+    "suspicious": "password-apple.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "citi.co",
+    "suspicious": "cifi.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "usbank.net",
+    "suspicious": "u58@nk.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "bestbuy.co",
+    "suspicious": "mail-bestbuy.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "etsy.info",
+    "suspicious": "admin-etsy.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "bankofamerica.io",
+    "suspicious": "8@nkOfam3ric4.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "target.net",
+    "suspicious": "target.com.biz",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "shopify.co",
+    "suspicious": "twitch445.co.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "netflix.com",
+    "suspicious": "netfilx.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "shopify.co",
+    "suspicious": "shopify-login.biz",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "walmart.com",
+    "suspicious": "w4im4rt.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "facebook.com",
+    "suspicious": "faceboo.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "target.co",
+    "suspicious": "target.net.biz",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "whatsapp.biz",
+    "suspicious": "what5@pp.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "telegram.info",
+    "suspicious": "teleram.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "discover.biz",
+    "suspicious": "backup.discover",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "walmart.co",
+    "suspicious": "facebook468.com.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.net",
+    "suspicious": "wellsfargoo.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "telegram.biz",
+    "suspicious": "help-telegram.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "linkedin.biz",
+    "suspicious": "aol235.com.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.org",
+    "suspicious": "visa907.net.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.net",
+    "suspicious": "aapple.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "visa.co",
+    "suspicious": "vkisa.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "aol.com",
+    "suspicious": "ebay189.biz.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "costco.io",
+    "suspicious": "amazon688.org.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "outlook.biz",
+    "suspicious": "netflix955.com.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.com",
+    "suspicious": "twitter129.co.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "zoom.biz",
+    "suspicious": "shopify806.net.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "yahoo.org",
+    "suspicious": "twitch357.com.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "steam.info",
+    "suspicious": "citi47.co.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.co",
+    "suspicious": "costco969.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.com",
+    "suspicious": "p@yp@i.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "whatsapp.org",
+    "suspicious": "wh4ts@pp.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "steam.net",
+    "suspicious": "bankofamerica997.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bankofamerica.info",
+    "suspicious": "github906.com.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "spotify.biz",
+    "suspicious": "5p0tlfy.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "spotify.com",
+    "suspicious": "paypal401.biz.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.org",
+    "suspicious": "aplpe.net",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "microsoft.biz",
+    "suspicious": "mkcrosoft.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "citi.info",
+    "suspicious": "linkedin889.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "mastercard.biz",
+    "suspicious": "dashboard-mastercard.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "google.info",
+    "suspicious": "walmart384.io.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "adobe.net",
+    "suspicious": "adobe.io.co",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "zoom.com",
+    "suspicious": "spotify293.com.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bestbuy.info",
+    "suspicious": "835t8uy.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "dropbox.com",
+    "suspicious": "telegram55.net.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "aol.io",
+    "suspicious": "reset-aol.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "github.co",
+    "suspicious": "qlthu8.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "discord.net",
+    "suspicious": "whatsapp280.biz.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "chase.org",
+    "suspicious": "microsoft888.info.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bankofamerica.net",
+    "suspicious": "bankofamericfa.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "wellsfargo.net",
+    "suspicious": "ebay445.biz.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.biz",
+    "suspicious": "linledin.net",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "citi.net",
+    "suspicious": "cit1.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "whatsapp.net",
+    "suspicious": "target186.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "steam.io",
+    "suspicious": "mastercard121.org.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "twitter.info",
+    "suspicious": "twitter.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "dropbox.biz",
+    "suspicious": "citi898.io.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "spotify.com",
+    "suspicious": "bestbuy657.io.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "netflix.biz",
+    "suspicious": "netflix.io.biz",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "paypal.co",
+    "suspicious": "pyapal.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "gitlab.info",
+    "suspicious": "shopify478.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "amex.net",
+    "suspicious": "verify.amex",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "adobe.org",
+    "suspicious": "webmail.adobe",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "shopify.org",
+    "suspicious": "discover636.net.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "usbank.com",
+    "suspicious": "u$8@nk.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "steam.net",
+    "suspicious": "stdam.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "mastercard.info",
+    "suspicious": "mastemrcard.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "chase.org",
+    "suspicious": "chas.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "steam.net",
+    "suspicious": "stezm.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "instagram.biz",
+    "suspicious": "instagra.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "linkedin.com",
+    "suspicious": "zoom39.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.info",
+    "suspicious": "steam823.biz.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "target.io",
+    "suspicious": "bankofamerica469.co.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "outlook.io",
+    "suspicious": "0utiO0k.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "chase.biz",
+    "suspicious": "chase.org.com",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "chase.com",
+    "suspicious": "gitlab99.biz.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "discover.net",
+    "suspicious": "yahoo480.com.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "usbank.biz",
+    "suspicious": "linkedin995.com.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "costco.biz",
+    "suspicious": "ccostco.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "gitlab.co",
+    "suspicious": "bankofamerica79.com.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "zoom.info",
+    "suspicious": "zoOm.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "ebay.org",
+    "suspicious": "target829.org.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "steam.co",
+    "suspicious": "paypal438.info.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "etsy.org",
+    "suspicious": "etsy-auth.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "walmart.co",
+    "suspicious": "w41m4rt.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "discover.net",
+    "suspicious": "login-discover.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "amazon.io",
+    "suspicious": "amaon.net",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "slack.org",
+    "suspicious": "shopify185.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "etsy.net",
+    "suspicious": "vetsy.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitch.com",
+    "suspicious": "paypal709.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bankofamerica.io",
+    "suspicious": "bakofamerica.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "wells Fargo.net",
+    "suspicious": "support-wells Fargo.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "usbank.net",
+    "suspicious": "usbnk.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "instagram.info",
+    "suspicious": "visa801.io.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "amazon.biz",
+    "suspicious": "4m4z0n.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "steam.org",
+    "suspicious": "$te4m.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "dropbox.co",
+    "suspicious": "discover956.io.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.io",
+    "suspicious": "facebook.io.info",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "discover.co",
+    "suspicious": "ddiscover.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "usbank.net",
+    "suspicious": "usbank.org.net",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "walmart.org",
+    "suspicious": "apple210.com.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "instagram.net",
+    "suspicious": "insagram.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "telegram.co",
+    "suspicious": "google663.info.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "twitch.org",
+    "suspicious": "outlook810.io.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.net",
+    "suspicious": "google-verify.biz",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "facebook.co",
+    "suspicious": "facebook-verify.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "netflix.org",
+    "suspicious": "netflix-cloud.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "bestbuy.com",
+    "suspicious": "bestbuh.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "apple.org",
+    "suspicious": "apple-confirm.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "spotify.info",
+    "suspicious": "outlook733.info.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "yahoo.io",
+    "suspicious": "yhaoo.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "telegram.net",
+    "suspicious": "telrgram.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitch.co",
+    "suspicious": "bestbuy41.co.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.com",
+    "suspicious": "q0Oq|3.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "facebook.info",
+    "suspicious": "costco589.io.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.info",
+    "suspicious": "google.net.com",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "amazon.biz",
+    "suspicious": "walmart449.net.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "microsoft.net",
+    "suspicious": "micnrosoft.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "shopify.info",
+    "suspicious": "twitch215.io.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "yahoo.info",
+    "suspicious": "costco525.co.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "discover.com",
+    "suspicious": "wells Fargo585.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "whatsapp.org",
+    "suspicious": "amazon133.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bestbuy.com",
+    "suspicious": "dropbox40.org.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "target.com",
+    "suspicious": "t@r93t.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "google.org",
+    "suspicious": "googgle.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "chase.net",
+    "suspicious": "ch4$3.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "amazon.com",
+    "suspicious": "amason.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "chase.com",
+    "suspicious": "chase-support.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "bankofamerica.co",
+    "suspicious": "84nk0f@m3r1ca.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "discord.co",
+    "suspicious": "telegram29.co.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "spotify.info",
+    "suspicious": "bestbuy19.com.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.biz",
+    "suspicious": "discover155.org.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "usbank.org",
+    "suspicious": "discord372.biz.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.org",
+    "suspicious": "f4c3b0Ok.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "gitlab.com",
+    "suspicious": "yitlab.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "netflix.biz",
+    "suspicious": "netfflix.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitch.com",
+    "suspicious": "password-twitch.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "shopify.net",
+    "suspicious": "amazon25.io.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.co",
+    "suspicious": "drive-paypal.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "walmart.net",
+    "suspicious": "walmart-drive.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "walmart.biz",
+    "suspicious": "usbank933.biz.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "spotify.co",
+    "suspicious": "spotify.com.info",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "dropbox.com",
+    "suspicious": "dropgox.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "apple.info",
+    "suspicious": "visa661.info.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.info",
+    "suspicious": "citi.com.co",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "discord.com",
+    "suspicious": "validate-discord.biz",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "google.org",
+    "suspicious": "google.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "netflix.co",
+    "suspicious": "apple412.net.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.net",
+    "suspicious": "f4c3800k.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "shopify.co",
+    "suspicious": "wells Fargo598.org.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "amazon.com",
+    "suspicious": "drive-amazon.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "github.io",
+    "suspicious": "outlook227.io.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "mastercard.org",
+    "suspicious": "mwstercard.net",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "bankofamerica.net",
+    "suspicious": "bestbuy826.info.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "github.com",
+    "suspicious": "wells Fargo281.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.io",
+    "suspicious": "citti.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "wells Fargo.net",
+    "suspicious": "instagram170.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.io",
+    "suspicious": "bankofamerica487.io.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.org",
+    "suspicious": "w3|15f4r9o.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "telegram.co",
+    "suspicious": "t3I39r@m.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "apple.com",
+    "suspicious": "pple.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "paypal.co",
+    "suspicious": "paypal-validate.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "capitalone.io",
+    "suspicious": "c4pit4|On3.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "shopify.com",
+    "suspicious": "secure-shopify.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "chase.co",
+    "suspicious": "cahse.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitch.org",
+    "suspicious": "tqwitch.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "instagram.co",
+    "suspicious": "cloud.instagram",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "bestbuy.info",
+    "suspicious": "drive.bestbuy",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "amazon.com",
+    "suspicious": "gitlab914.io.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "dropbox.org",
+    "suspicious": "outlook217.biz.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.io",
+    "suspicious": "linkedin-service.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "discover.org",
+    "suspicious": "dL5c0v3r.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "etsy.com",
+    "suspicious": "drive.etsy",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "google.org",
+    "suspicious": "qo0913.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "capitalone.org",
+    "suspicious": "capitaloney.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "spotify.io",
+    "suspicious": "auth.spotify",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "mastercard.biz",
+    "suspicious": "mastercard.io.org",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "facebook.co",
+    "suspicious": "paypal52.net.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "whatsapp.org",
+    "suspicious": "whatsapap.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "yahoo.net",
+    "suspicious": "yaho.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "dropbox.com",
+    "suspicious": "drOp80x.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "linkedin.co",
+    "suspicious": "help-linkedin.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "bankofamerica.co",
+    "suspicious": "bankojfamerica.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "discover.com",
+    "suspicious": "discover.io.info",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "zoom.biz",
+    "suspicious": "soom.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "microsoft.io",
+    "suspicious": "slack821.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.net",
+    "suspicious": "wellsfargo389.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "outlook.info",
+    "suspicious": "recovery-outlook.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "wells Fargo.org",
+    "suspicious": "bestbuy89.org.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "dropbox.co",
+    "suspicious": "auth.dropbox",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "whatsapp.info",
+    "suspicious": "linkedin187.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.co",
+    "suspicious": "citi-update.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "telegram.com",
+    "suspicious": "te|3qr@m.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "chase.co",
+    "suspicious": "telegram619.org.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "visa.com",
+    "suspicious": "bankofamerica338.io.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.org",
+    "suspicious": "qO0g13.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "facebook.co",
+    "suspicious": "facebook.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "spotify.info",
+    "suspicious": "spotfy.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "paypal.co",
+    "suspicious": "wallet-paypal.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "yahoo.info",
+    "suspicious": "dropbox821.biz.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.io",
+    "suspicious": "chase607.org.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "yahoo.com",
+    "suspicious": "paypal723.com.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "visa.io",
+    "suspicious": "vl54.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "facebook.info",
+    "suspicious": "paypal708.com.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.net",
+    "suspicious": "bestbuy315.io.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "gitlab.com",
+    "suspicious": "gitlag.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "zoom.info",
+    "suspicious": "zo0m.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "github.org",
+    "suspicious": "storage.github",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "amex.io",
+    "suspicious": "ameex.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitter.co",
+    "suspicious": "dropbox657.io.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.io",
+    "suspicious": "slack822.co.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "usbank.biz",
+    "suspicious": "usbank-customer.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "slack.info",
+    "suspicious": "dropbox407.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "usbank.org",
+    "suspicious": "drive-usbank.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "bankofamerica.net",
+    "suspicious": "8@nk0fam3rlca.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "spotify.org",
+    "suspicious": "auth-spotify.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "microsoft.org",
+    "suspicious": "microsoft.net.co",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "adobe.org",
+    "suspicious": "adoeb.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "visa.io",
+    "suspicious": "visa-support.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "telegram.co",
+    "suspicious": "wells Fargo131.org.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bestbuy.org",
+    "suspicious": "customer-bestbuy.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "discover.com",
+    "suspicious": "d|scOv3r.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "capitalone.biz",
+    "suspicious": "amazon6.com.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "shopify.biz",
+    "suspicious": "5hOp|fy.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "amex.io",
+    "suspicious": "@m3x.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "wellsfargo.biz",
+    "suspicious": "wellsfaro.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "bestbuy.co",
+    "suspicious": "835t8uy.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "dropbox.org",
+    "suspicious": "drop80x.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "chase.com",
+    "suspicious": "chasee.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "wellsfargo.com",
+    "suspicious": "w3II5f@r90.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "zoom.info",
+    "suspicious": "netflix83.biz.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.net",
+    "suspicious": "slack647.io.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "etsy.net",
+    "suspicious": "reset-etsy.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "visa.biz",
+    "suspicious": "visa.net.org",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "github.com",
+    "suspicious": "githbub.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "etsy.co",
+    "suspicious": "et$y.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "bestbuy.biz",
+    "suspicious": "spotify602.biz.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.biz",
+    "suspicious": "instagram342.org.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "slack.biz",
+    "suspicious": "netflix447.net.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.co",
+    "suspicious": "discord212.io.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "discord.net",
+    "suspicious": "di5cOrd.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "github.co",
+    "suspicious": "githbu.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "discord.net",
+    "suspicious": "instagram224.com.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "github.net",
+    "suspicious": "visa863.io.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.net",
+    "suspicious": "whatsapp531.co.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "amazon.net",
+    "suspicious": "portal.amazon",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "bestbuy.com",
+    "suspicious": "835t8uy.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "etsy.net",
+    "suspicious": "visa740.net.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "ebay.co",
+    "suspicious": "netflix266.biz.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "instagram.info",
+    "suspicious": "instagrm.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "paypal.io",
+    "suspicious": "apple97.net.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "capitalone.info",
+    "suspicious": "c@p1t@iOn3.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "linkedin.com",
+    "suspicious": "linkedni.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "paypal.io",
+    "suspicious": "amex948.com.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.co",
+    "suspicious": "target157.io.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.co",
+    "suspicious": "update-citi.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "github.net",
+    "suspicious": "etsy724.biz.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.io",
+    "suspicious": "twitch81.net.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "shopify.com",
+    "suspicious": "target861.net.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.info",
+    "suspicious": "backup.facebook",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "usbank.org",
+    "suspicious": "amazon69.net.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "yahoo.com",
+    "suspicious": "yahoi.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "bankofamerica.biz",
+    "suspicious": "bankofamerica-verify.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "zoom.net",
+    "suspicious": "z0Om.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "adobe.co",
+    "suspicious": "@d083.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "slack.biz",
+    "suspicious": "webmail.slack",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "etsy.biz",
+    "suspicious": "eetsy.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "microsoft.biz",
+    "suspicious": "verify.microsoft",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "telegram.net",
+    "suspicious": "teleogram.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "wells Fargo.org",
+    "suspicious": "wells Frgo.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "visa.org",
+    "suspicious": "visa-signin.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "facebook.net",
+    "suspicious": "service-facebook.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "wells Fargo.com",
+    "suspicious": "github168.com.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.net",
+    "suspicious": "1lnk3dln.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "usbank.info",
+    "suspicious": "paypal436.com.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.info",
+    "suspicious": "mail.wellsfargo",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "chase.co",
+    "suspicious": "chase.io.info",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "gitlab.info",
+    "suspicious": "verify-gitlab.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "paypal.io",
+    "suspicious": "spotify151.co.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "gitlab.info",
+    "suspicious": "gitlab.org.io",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "adobe.io",
+    "suspicious": "costco132.org.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "twitch.info",
+    "suspicious": "tw1tch.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "slack.org",
+    "suspicious": "slaack.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "discover.net",
+    "suspicious": "discover-customer.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "shopify.com",
+    "suspicious": "$h0pLfy.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "zoom.com",
+    "suspicious": "aol866.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "shopify.io",
+    "suspicious": "update-shopify.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "walmart.com",
+    "suspicious": "walmart-admin.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "amazon.co",
+    "suspicious": "amazo.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "shopify.net",
+    "suspicious": "usbank229.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.com",
+    "suspicious": "etsy802.biz.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.org",
+    "suspicious": "telegrham.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "dropbox.info",
+    "suspicious": "dr0p80x.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "google.net",
+    "suspicious": "github882.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "capitalone.net",
+    "suspicious": "capitalone-password.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "microsoft.info",
+    "suspicious": "citi449.org.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.net",
+    "suspicious": "w3|I5f@rqO.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "discover.info",
+    "suspicious": "discocer.net",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "etsy.co",
+    "suspicious": "etsy.com.io",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "google.io",
+    "suspicious": "q0O9I3.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "twitter.org",
+    "suspicious": "drive.twitter",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "ebay.net",
+    "suspicious": "shopify943.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "adobe.com",
+    "suspicious": "4d083.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "target.biz",
+    "suspicious": "secure.target",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "amex.org",
+    "suspicious": "wmex.net",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "facebook.io",
+    "suspicious": "discover637.io.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.co",
+    "suspicious": "verify-paypal.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "aol.net",
+    "suspicious": "auth.aol",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "netflix.info",
+    "suspicious": "etsy663.com.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "mastercard.co",
+    "suspicious": "mastsrcard.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "amazon.com",
+    "suspicious": "costco825.net.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "amex.co",
+    "suspicious": "cloud.amex",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "bankofamerica.net",
+    "suspicious": "account-bankofamerica.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "twitter.io",
+    "suspicious": "admin-twitter.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "visa.co",
+    "suspicious": "vL$4.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "discord.org",
+    "suspicious": "dl$c0rd.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "aol.info",
+    "suspicious": "backup.aol",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "usbank.com",
+    "suspicious": "usabnk.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "amex.biz",
+    "suspicious": "amex.com.org",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "apple.info",
+    "suspicious": "4ppi3.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "dropbox.net",
+    "suspicious": "secure.dropbox",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "costco.biz",
+    "suspicious": "github354.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "twitch.com",
+    "suspicious": "zoom170.com.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.info",
+    "suspicious": "||nk3dln.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "whatsapp.info",
+    "suspicious": "chase920.net.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "bankofamerica.org",
+    "suspicious": "bankofamerica.org.com",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "chase.co",
+    "suspicious": "chase.com.io",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "amex.info",
+    "suspicious": "amex.io.net",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "bankofamerica.io",
+    "suspicious": "bankofamerica-wallet.biz",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "costco.io",
+    "suspicious": "ocstco.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "paypal.io",
+    "suspicious": "paypal-portal.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "paypal.net",
+    "suspicious": "paypal-webmail.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "etsy.co",
+    "suspicious": "3t$y.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "paypal.net",
+    "suspicious": "support-paypal.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "discover.info",
+    "suspicious": "idscover.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "shopify.biz",
+    "suspicious": "telegram152.net.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.info",
+    "suspicious": "dropbox727.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.info",
+    "suspicious": "mail.paypal",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "wellsfargo.info",
+    "suspicious": "w3lI$f4rqO.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "adobe.com",
+    "suspicious": "@d083.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "slack.net",
+    "suspicious": "adobe56.co.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "visa.io",
+    "suspicious": "v|54.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "microsoft.com",
+    "suspicious": "microsoft.org",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "etsy.net",
+    "suspicious": "dropbox393.co.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.org",
+    "suspicious": "pavypal.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "google.info",
+    "suspicious": "facebook426.net.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "adobe.io",
+    "suspicious": "4dO83.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "microsoft.com",
+    "suspicious": "customer-microsoft.biz",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "usbank.com",
+    "suspicious": "usbank-validate.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "outlook.biz",
+    "suspicious": "apple201.net.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.com",
+    "suspicious": "usbank616.io.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "dropbox.org",
+    "suspicious": "dropbox.org.biz",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "telegram.io",
+    "suspicious": "walmart615.biz.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "chase.net",
+    "suspicious": "uchase.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "wells Fargo.info",
+    "suspicious": "wells Fargo.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "ebay.co",
+    "suspicious": "384y.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "shopify.net",
+    "suspicious": "5hOplfy.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "walmart.biz",
+    "suspicious": "wbalmart.net",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "netflix.com",
+    "suspicious": "twitch629.com.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "spotify.info",
+    "suspicious": "dashboard-spotify.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "zoom.org",
+    "suspicious": "zoom.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "github.co",
+    "suspicious": "github-password.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "dropbox.info",
+    "suspicious": "dropbox.net.info",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "google.info",
+    "suspicious": "files.google",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "amex.org",
+    "suspicious": "payment-amex.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "discord.biz",
+    "suspicious": "chase432.info.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.co",
+    "suspicious": "outlook657.com.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "aol.biz",
+    "suspicious": "whatsapp452.co.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "amex.net",
+    "suspicious": "4m3x.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "bestbuy.co",
+    "suspicious": "dropbox594.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "usbank.info",
+    "suspicious": "usbakn.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "steam.net",
+    "suspicious": "$t34m.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "walmart.org",
+    "suspicious": "walmartt.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "bestbuy.co",
+    "suspicious": "capitalone139.io.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.net",
+    "suspicious": "target482.info.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "citi.io",
+    "suspicious": "support.citi",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "discover.net",
+    "suspicious": "slack268.info.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "mastercard.com",
+    "suspicious": "github362.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "microsoft.info",
+    "suspicious": "telegram814.io.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "twitch.net",
+    "suspicious": "twitch.com",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "twitch.info",
+    "suspicious": "twLtch.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "google.info",
+    "suspicious": "mastercard400.com.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "slack.biz",
+    "suspicious": "recovery-slack.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "microsoft.org",
+    "suspicious": "micro$Oft.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "shopify.org",
+    "suspicious": "linkedin248.net.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "aol.net",
+    "suspicious": "@0l.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "visa.co",
+    "suspicious": "vissa.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "slack.com",
+    "suspicious": "github298.net.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.info",
+    "suspicious": "mail-telegram.co",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "gitlab.info",
+    "suspicious": "help.gitlab",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "linkedin.co",
+    "suspicious": "mastercard452.biz.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.io",
+    "suspicious": "wellsbargo.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitch.io",
+    "suspicious": "costco192.info.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.biz",
+    "suspicious": "9OO9i3.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "yahoo.io",
+    "suspicious": "dropbox633.co.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.com",
+    "suspicious": "spotify385.io.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "costco.org",
+    "suspicious": "reset-costco.com",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "citi.info",
+    "suspicious": "ciyi.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "target.biz",
+    "suspicious": "facebook317.info.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "adobe.net",
+    "suspicious": "storage.adobe",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "discord.net",
+    "suspicious": "ebay512.biz.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "etsy.biz",
+    "suspicious": "aol468.io.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "facebook.biz",
+    "suspicious": "bankofamerica981.biz.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "adobe.net",
+    "suspicious": "4dO83.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "dropbox.io",
+    "suspicious": "paypal295.com.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "gitlab.net",
+    "suspicious": "9Lti@8.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "twitch.co",
+    "suspicious": "twitch-admin.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "wellsfargo.com",
+    "suspicious": "wellsfargo-recovery.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "target.org",
+    "suspicious": "ttarget.org",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "capitalone.io",
+    "suspicious": "validate-capitalone.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "slack.org",
+    "suspicious": "discover509.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "target.io",
+    "suspicious": "amazon776.biz.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.biz",
+    "suspicious": "googlee.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "linkedin.net",
+    "suspicious": "inkedin.biz",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "adobe.org",
+    "suspicious": "adobe-signin.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "wells Fargo.com",
+    "suspicious": "w3iI$ F4rgO.org",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "aol.io",
+    "suspicious": "zol.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "discord.org",
+    "suspicious": "target999.io.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "usbank.org",
+    "suspicious": "spotify698.net.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "wellsfargo.io",
+    "suspicious": "wellsfargo-drive.info",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "bankofamerica.org",
+    "suspicious": "bxnkofamerica.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "paypal.com",
+    "suspicious": "shopify488.info.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "netflix.co",
+    "suspicious": "netflis.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "target.info",
+    "suspicious": "usbank391.biz.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "telegram.co",
+    "suspicious": "shopify778.io.com",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "linkedin.co",
+    "suspicious": "linkdin.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitter.info",
+    "suspicious": "google370.info.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.org",
+    "suspicious": "p4yp@|.biz",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "aol.info",
+    "suspicious": "microsoft172.co.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.com",
+    "suspicious": "paypal.net.info",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "paypal.net",
+    "suspicious": "steam917.info.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.co",
+    "suspicious": "wells Fargo449.co.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "google.com",
+    "suspicious": "github251.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.co",
+    "suspicious": "microsoft125.co.biz",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.co",
+    "suspicious": "aplpe.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "twitter.net",
+    "suspicious": "discover322.info.net",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "instagram.info",
+    "suspicious": "ln$t@9r@m.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "twitch.biz",
+    "suspicious": "twitch-confirm.net",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "microsoft.info",
+    "suspicious": "microsoft-update.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "costco.info",
+    "suspicious": "cO$tcO.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "usbank.io",
+    "suspicious": "customer.usbank",
+    "label": 1,
+    "attack_type": "subdomain"
+  },
+  {
+    "original": "amex.io",
+    "suspicious": "mastercard814.com.org",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "chase.net",
+    "suspicious": "cahse.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "spotify.com",
+    "suspicious": "wallet-spotify.io",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "aol.co",
+    "suspicious": "4oi.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "twitch.info",
+    "suspicious": "twitch.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "facebook.io",
+    "suspicious": "facebotok.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "aol.com",
+    "suspicious": "4O1.io",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "paypal.com",
+    "suspicious": "microsoft637.org.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "outlook.com",
+    "suspicious": "ohtlook.io",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "etsy.net",
+    "suspicious": "3t5y.info",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "mastercard.info",
+    "suspicious": "wellsfargo158.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "amex.com",
+    "suspicious": "amex.org.co",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "chase.info",
+    "suspicious": "chse.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "instagram.org",
+    "suspicious": "etsy282.net.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "apple.co",
+    "suspicious": "appls.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "citi.co",
+    "suspicious": "citti.info",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "wellsfargo.biz",
+    "suspicious": "linkedin170.com.info",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "paypal.com",
+    "suspicious": "yahoo463.net.io",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "mastercard.io",
+    "suspicious": "mastercard.org",
+    "label": 1,
+    "attack_type": "tld"
+  },
+  {
+    "original": "etsy.org",
+    "suspicious": "etsu.co",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "bankofamerica.io",
+    "suspicious": "bankoofamerica.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "amex.io",
+    "suspicious": "walmart146.biz.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "yahoo.org",
+    "suspicious": "y@hoO.co",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "twitter.com",
+    "suspicious": "twittter.com",
+    "label": 1,
+    "attack_type": "typosquat"
+  },
+  {
+    "original": "amex.info",
+    "suspicious": "dashboard-amex.org",
+    "label": 1,
+    "attack_type": "combo"
+  },
+  {
+    "original": "linkedin.org",
+    "suspicious": "amex852.org.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "netflix.com",
+    "suspicious": "n3tfILx.com",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "adobe.io",
+    "suspicious": "shopify978.com.co",
+    "label": 0,
+    "attack_type": "benign"
+  },
+  {
+    "original": "etsy.info",
+    "suspicious": "et$y.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "zoom.io",
+    "suspicious": "z00m.net",
+    "label": 1,
+    "attack_type": "homoglyph"
+  },
+  {
+    "original": "mastercard.net",
+    "suspicious": "google219.org.io",
+    "label": 0,
+    "attack_type": "benign"
+  }
+]

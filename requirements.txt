@@ -1,0 +1,13 @@
+torch
+transformers
+scikit-learn
+numpy
+joblib
+rapidfuzz
+tldextract
+pandas
+httpx
+urllib3
+flask
+xgboost
+psycopg2-binary
