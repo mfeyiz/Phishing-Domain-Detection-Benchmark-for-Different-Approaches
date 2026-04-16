@@ -25,7 +25,7 @@ models_loaded = {}
 
 
 def _lazy_load_algorithmic():
-    global _algorithmic_model, models_loaded
+    global _algorithmic_model
     if _algorithmic_model is None:
         from src.detectors.algorithmic import predict as _predict
 
@@ -36,7 +36,7 @@ def _lazy_load_algorithmic():
 
 
 def _lazy_load_rf():
-    global _rf_model, models_loaded
+    global _rf_model
     if _rf_model is None:
         from src.detectors.rf_detector import predict as _predict
 
@@ -47,7 +47,7 @@ def _lazy_load_rf():
 
 
 def _lazy_load_xgb():
-    global _xgb_model, models_loaded
+    global _xgb_model
     if _xgb_model is None:
         from src.detectors.xgb_detector import predict as _predict
 
@@ -58,7 +58,7 @@ def _lazy_load_xgb():
 
 
 def _lazy_load_urlbert():
-    global _urlbert_model, models_loaded
+    global _urlbert_model
     if _urlbert_model is None:
         from src.detectors.urlbert_detector import predict as _predict
 
@@ -69,7 +69,7 @@ def _lazy_load_urlbert():
 
 
 def _lazy_load_sbert():
-    global _sbert_model, models_loaded
+    global _sbert_model
     if _sbert_model is None:
         from src.detectors.sbert_detector import predict as _predict
 
@@ -80,7 +80,7 @@ def _lazy_load_sbert():
 
 
 def _lazy_load_crossencoder():
-    global _crossencoder_model, models_loaded
+    global _crossencoder_model
     if _crossencoder_model is None:
         from src.detectors.crossencoder_detector import predict as _predict
 
