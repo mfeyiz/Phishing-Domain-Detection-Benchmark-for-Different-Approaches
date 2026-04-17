@@ -93,6 +93,7 @@ def main():
         ("Random Forest", rf_predict, False),
         ("XGBoost", xgb_predict, False),
         ("SBERT", sbert_predict, False),
+        ("URLBERT", urlbert_predict, False),
         ("CrossEncoder", crossencoder_predict, False)
     ]
     
