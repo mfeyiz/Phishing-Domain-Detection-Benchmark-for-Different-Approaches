@@ -1,18 +1,18 @@
 # Phishing Alan Adı Tespit Projesi
 
-Bu proje, şüpheli alan adlarının (domainlerin) bilinen markaları taklit edip etmediğini tespit etmek için Algoritmik, Makine Öğrenmesi (ML) ve Derin Öğrenme (DL) yöntemlerini kullanan kapsamlı bir araç setidir.
+Bu proje, şüpheli alan adlarının (domainlerin) bilinen markaları taklit edip etmediğini tespit etmek için Algoritmik, Makine Öğrenmesi ve Derin Öğrenme yöntemlerini kullanan kapsamlı bir araç setidir.
 
-## 🚀 Proje Genel Bakış
+## Proje Genel Bakış
 
-Proje, bir hedef alan adı (original) ile şüpheli bir alan adını (suspicious) karşılaştırarak, aralarındaki benzerlikleri ve potansiyel oltalama (phishing) tekniklerini analiz eder.
+Proje, bir hedef alan adı ile şüpheli bir alan adını karşılaştırarak, aralarındaki benzerlikleri ve potansiyel phishing tekniklerini analiz eder.
 
 ### Temel Özellikler:
 - **Algoritmik Analiz:** Levenshtein mesafesi, Jaro-Winkler, klavye yakınlığı ve homograf (homoglyph) tespiti gibi metriklerle hızlı analiz.
-- **Makine Öğrenmesi (ML):** Entropi, özel karakter sayımı ve leksikal (sözcüksel) özellikler gibi çıkarılmış nitelikler üzerinden risk puanlaması.
+- **Makine Öğrenmesi (ML):** Entropi, özel karakter sayımı ve leksikal sözcüksel özellikler gibi çıkarılmış nitelikler üzerinden risk puanlaması.
 - **Derin Öğrenme (DL):** Transformer tabanlı modeller (BERT) ve özel Encoder mimarileri ile anlamsal ve yapısal benzerlik tespiti.
 - **Benchmark Aracı:** Farklı dedektörlerin performansını (doğruluk, hız) ölçmek için kapsamlı test senaryoları.
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 | Dosya | Açıklama |
 |-------|----------|
@@ -22,7 +22,7 @@ Proje, bir hedef alan adı (original) ile şüpheli bir alan adını (suspicious
 | `utils.py` | Tüm modeller tarafından kullanılan yardımcı fonksiyonlar ve veri yapıları (homograf sözlükleri, klavye düzeni vb.). |
 | `benchmark.py` | Modelleri çeşitli senaryolarda (Typosquatting, Combosquatting vb.) test eden araç. |
 
-## 🛠️ Kurulum
+## Kurulum
 
 1. Depoyu klonlayın:
    ```bash
@@ -35,7 +35,7 @@ Proje, bir hedef alan adı (original) ile şüpheli bir alan adını (suspicious
    pip install torch transformers scikit-learn
    ```
 
-## 🔍 Kullanım
+## Kullanım
 
 ### Modellerin Manuel Test Edilmesi
 Her bir modelin `predict` fonksiyonu şu şekilde kullanılabilir:
@@ -54,13 +54,13 @@ print(f"Sonuç: {label}, Güven Skoru: {score}")
 Tüm modellerin performansını çeşitli saldırı tiplerine karşı test etmek için:
 
 ```bash
-python benchmark.py
+python scripts/benchmark.py
 ```
 
 Tek bir modeli benchmark etmek ve dashboard için JSON raporu üretmek için:
 
 ```bash
-python benchmark.py --model random_forest --samples 500 --output-json benchmark_results.json --output-md benchmark_results.md
+python scripts/benchmark.py --samples 500 --output-json benchmark_results.json --output-md benchmark_results.md
 ```
 
 Kullanılabilir model anahtarları:
@@ -85,7 +85,7 @@ Proje kökünde yer alan `benchmark_dashboard.html`, benchmark sonuçlarını te
 
 Dashboard önce `benchmark_results.json` dosyasını, bulunamazsa `benchmark_results.md` dosyasını okur.
 
-## 🛡️ Tespit Edilen Saldırı Tipleri
+## Tespit Edilen Saldırı Tipleri
 
 - **Typosquatting:** Yazım hatalarından yararlanan alan adları (örn: `gogle.com`).
 - **Combosquatting:** Marka isminin yanına anahtar kelimeler eklenmesi (örn: `paypal-login.com`).
