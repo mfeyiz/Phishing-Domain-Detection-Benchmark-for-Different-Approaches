@@ -39,11 +39,11 @@ def predict(orig: str, susp: str) -> float:
     return float(prob)
 
 
-def retrain(n_samples: int = 1200, save: bool = True):
+def retrain(n_samples: int = 12000, save: bool = True):
     """Retrain the model with new data."""
-    from src.generators import SimpleGenerator
+    from src.generators.hard import HardGenerator
 
-    gen = SimpleGenerator()
+    gen = HardGenerator()
     data = gen.generate_dataset(n_samples)
 
     X = []

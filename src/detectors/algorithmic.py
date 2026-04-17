@@ -104,4 +104,4 @@ def predict(orig: str, susp: str) -> tuple:
     elif phishing_score > 0.40:
         return ("Şüpheli", phishing_score)
     else:
-        return ("Temiz", 1 - phishing_score)
+        return ("Temiz", phishing_score)
